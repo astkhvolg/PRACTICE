@@ -1,0 +1,486 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.firstdiv {
+    background-image: url(https://images.unsplash.com/photo-1521292270410-a8c4d716d518?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    width: 1500px;
+
+}
+
+.flexupdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 670px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(56, 84, 63);
+    width: 1500px;
+}
+
+.h1flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.h1 {
+    font-size: 100px;
+    color: #8C663C;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    padding-left: 75px;
+    font-weight: 800;
+}
+
+.text {
+    font-size: 20px;
+    color: #375c6a;
+    font-style: oblique;
+    padding-left: 75px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.upbutton {
+    width: 105px;
+    height: 25px;
+    background-color: #af7c4c;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.twobutton {
+    width: 105px;
+    height: 25px;
+    background-color: #4A7A8C;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.seconddiv {
+    background-color: #4A7A8C;
+    width: 1425px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 75px;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+
+}
+
+.partner {
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.threethdiv {
+    background-color: rgb(255, 255, 255);
+    width: 1500px;
+    height: 565px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.img2 {
+    width: 380px;
+    height: 520px;
+    margin-left: 175px;
+    margin-top: 95px;
+}
+
+.flexabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 90px;
+    margin-left: 105px;
+}
+
+.textaboutus {
+    font-style: oblique;
+    font-size: 20px;
+    color: #4A7A8C;
+}
+
+.h2 {
+    font-size: 60px;
+    color: #4A7A8C;
+}
+
+.fourthdiv {
+    background-color: rgb(237, 204, 171);
+    width: 1500px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.howit {
+    font-size: 60px;
+    color: #8C663C;
+    margin-top: 200px;
+}
+
+.texthowit {
+    font-style: oblique;
+    font-size: 18px;
+    color: #8C663C;
+    font-weight: 300;
+}
+
+.flexhowit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 375px;
+    margin-left: 175px;
+}
+
+.threebutton {
+    width: 105px;
+    height: 25px;
+    background-color: #4A7A8C;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 45px;
+}
+
+.textlist {
+
+    font-size: 15px;
+    height: 475px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 25px;
+
+}
+
+.textul {
+    width: 630px;
+    height: 580px;
+    margin-top: 25px;
+    margin-left: 10px;
+
+}
+
+.li {
+    font-size: 25px;
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.circle {
+    position: absolute;
+    left: 15px;
+}
+
+.bordertextflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 645px;
+    height: 500px;
+    border-left: #8C663C solid 3px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 25px;
+
+}
+
+.one {
+    height: 50px;
+    width: 50px;
+    background-color: #D9B389;
+    border-radius: 50%;
+    position: absolute;
+    left: -34px;
+
+}
+
+.listtwo,
+.listthree,
+.listfour,
+.listfive {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.numbers {
+    position: absolute;
+    left: 5px;
+
+}
+
+.list {
+    height: 510px;
+}
+
+.listone {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.fivedive {
+    height: 900px;
+    width: 1500px;
+    background-color: #D9B389;
+
+}
+
+.why {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-size: 60px;
+    color: #8C663C;
+}
+
+/* @keyframes flex {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    animation: flex 3s infinite linear;
+} */
+.h3why{
+    margin-bottom: 40px;
+    margin-top: 120px;
+    text-align: center;
+}
+.whytext{
+    font-style: oblique;
+    font-size: 18px;
+    color: #8C663C;
+    font-weight: 300;
+}
+.tdline{
+    border: 1px solid #D9B389;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.table {
+    border-collapse: collapse;
+    width: 1210px;
+    
+
+}
+.onethwhite, .onethblue{
+    border: 1px solid #D9B389;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.tableflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.onethwhite{
+    background-color: rgb(237, 204, 171);
+    color: #8C663C;
+}
+.onethblue{
+    background-color: #4A7A8C;
+    color: white;
+    text-align: center;
+}
+.whiteblue{
+    background-color:  #87a5af;
+    color: white;
+    text-align: center;
+}
+.tdname{
+    color: #8c663c;
+    background-color:  #D9B389;
+}
+td{
+    width: 33%;
+    font-size: 18px;
+}
+.kursiv{
+   
+    padding-left: 20px;
+}
+.center{
+    text-align: center;
+}
+.onesite{
+    width: 1500px;
+    margin-top: 0px;
+}
+.sixdiv{
+    height: 565px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.textlets{
+    font-size: 60px;
+    color: #4A7A8C;
+    margin-bottom: 45px;
+
+}
+.textunder{
+    font-style: oblique;
+    font-size: 18px;
+    color: #4A7A8C;
+    font-weight: 300;
+}
+.sixtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 375px;
+    
+}
+
+
+.fullname, .twoname {
+    height: 50px;
+    width: 400px;
+    font-size: 18px;
+    color: #8C663C;
+    border-bottom: 4px solid #8C663C;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-collapse: collapse;
+    
+}
+.fullname:focus {
+    color: #8C663C;
+    border: 4px solid #8C663C;
+  }
+  .twoname:focus {
+    color: #8C663C;
+    border-left: 4px solid #8C663C;
+    border-right: 4px solid #8C663C;
+    border-bottom: 4px solid #8C663C;
+    border-top: 4px solid #8C663C;
+    
+  }
+.req{
+    font-size: 12px;
+}
+.submit{
+    height: 45px;
+    width: 120px;
+    font-size: 18px;
+    color: #4A7A8C;
+    background-color: #ffffff;
+    border: none;
+    margin-left: 300px;
+}
+.adress{
+    margin-top: 45px;
+}
+.sevendiv{
+    background-color: #87a5af;
+    height: 600px;
+}
+.sevenh1{
+    height: 20px;
+    width: 1500px;
+    padding-top: 75px;
+    
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+.smithflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+.smith{
+    font-size: 28px;
+    color: white;
+    width: 525px;
+    height: 220px;
+}
+.oneline{
+    border: none; /* Убираем границу */
+    background-color: rgb(255, 255, 255); /* Цвет линии */
+    color: rgb(255, 255, 255); /* Цвет линии для IE6-7 */
+    height: 3px;
+    margin-top: 55px;
+    margin-bottom: 18px;
+}
+.jonh{
+    font-size: 13px;
+}
