@@ -526,6 +526,8 @@ td{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding-top: 40px;
+    position: relative;
 
 }
 .h3today {
@@ -533,7 +535,7 @@ td{
     color: #4A7A8C;
     margin-top: 0px;
     margin-left: 85px;
-    height: 90px;
+   margin-bottom: 40px;
 
 }
 .ninename {
@@ -548,4 +550,10 @@ td{
     outline: none;
     border-collapse: collapse;  
     margin-left: 85px;
+}
+.symbol {
+    position: absolute;
+    left: 685px;
+    top: 133px;
+    font-size: 28px;
 }
