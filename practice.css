@@ -484,3 +484,19 @@ td{
 .jonh{
     font-size: 13px;
 }
+.eightdiv {
+    background-color: rgb(255, 255, 255);
+    width: 1500px;
+    height: 565px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.imgeight {
+    width: 380px;
+    height: 520px;
+    margin-left: 175px;
+    margin-top: 95px;
+}
