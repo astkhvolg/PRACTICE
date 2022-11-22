@@ -515,3 +515,37 @@ td{
     color: #4A7A8C;
     margin-top: 15px;
 }
+.ninediv {
+    background-color: rgb(250, 238, 226);
+    width: 1500px;
+    height: 370px;
+}
+.topnine {
+    height: 120px;
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.h3today {
+    font-size: 38px;
+    color: #4A7A8C;
+    margin-top: 0px;
+    margin-left: 85px;
+    height: 90px;
+
+}
+.ninename {
+    height: 50px;
+    width: 650px;
+    font-size: 18px;
+    color: #8C663C;
+    border-bottom: 2px solid #8C663C;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-collapse: collapse;  
+    margin-left: 85px;
+}
