@@ -485,7 +485,7 @@ td{
     font-size: 13px;
 }
 .eightdiv {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 204, 171);
     width: 1500px;
     height: 565px;
     display: flex;
@@ -500,4 +500,18 @@ td{
     height: 520px;
     margin-left: 175px;
     position: absolute;
+    bottom: 95px;
+}
+.flexabouteight {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 90px;
+    margin-left: 670px;
+}
+.h2eight {
+    font-size: 60px;
+    color: #4A7A8C;
+    margin-top: 15px;
 }
