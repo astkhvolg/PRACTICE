@@ -67,19 +67,29 @@ body {
     display: inline-block;
 }
 
-.twobutton {
-    width: 105px;
-    height: 25px;
-    background-color: #4A7A8C;
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+.button-learn-more {
     margin-left: 75px;
     margin-top: 35px;
     margin-bottom: 45px;
+
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: #4A7A8C;
+
+    line-height: 16px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    transition: 0.3s;
+    cursor: pointer;
+}
+.button-learn-more:hover,
+.button-learn-more:focus {
+    background-color: #8C663C;
 }
 
 .seconddiv {
