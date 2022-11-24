@@ -528,10 +528,10 @@ td{
 .ninediv {
     background-color: rgb(250, 238, 226);
     width: 1500px;
-    height: 370px;
+    height: 400px;
 }
 .topnine {
-    height: 120px;
+    height: 140px;
     display: block;
     flex-direction: column;
     justify-content: space-around;
@@ -569,5 +569,15 @@ td{
 }
 .bottomnine {
     width: 1500px;
-    height: 370px;
+    height: 185px;
+}
+.houseicon {
+    height: 40px;
+    width: 40px;
+}
+.housetext {
+    font-size: 20px;
+    color: #8c663c;
+    margin-left: 85px;
+    margin-top: 40px;
 }
