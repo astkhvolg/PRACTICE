@@ -528,7 +528,7 @@ td{
 .ninediv {
     background-color: rgb(250, 238, 226);
     width: 1500px;
-    height: 400px;
+    height: 450px;
 }
 .topnine {
     height: 140px;
@@ -536,7 +536,7 @@ td{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 50px;
     position: relative;
 
 }
@@ -545,7 +545,7 @@ td{
     color: #4A7A8C;
     margin-top: 0px;
     margin-left: 85px;
-   margin-bottom: 40px;
+    margin-bottom: 40px;
 
 }
 .ninename {
@@ -568,8 +568,14 @@ td{
     font-size: 28px;
 }
 .bottomnine {
-    width: 1500px;
+    width: 1220px;
     height: 185px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-left: 85px;
 }
 .houseicon {
     height: 40px;
@@ -578,6 +584,29 @@ td{
 .housetext {
     font-size: 20px;
     color: #8c663c;
+    width: 440px;
+}
+.iconlink {
+    height: 28px;
+    width: 28px;
+    margin-right: 12px;
+}
+.links {
+    margin-top: 15px;
+}
+.licontact {
+    list-style-type: none;
+    color: #8C663C;
+    margin-top: 10px;
+}
+.links2 {
+    width: 150px;
     margin-left: 85px;
-    margin-top: 40px;
+}
+.ulcontact {
+    padding-left: 0px;
+}
+.links2text {
+    font-size: 18px;
+    color: #8c663c;
 }
