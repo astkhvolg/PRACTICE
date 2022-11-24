@@ -545,7 +545,7 @@ td{
     color: #4A7A8C;
     margin-top: 0px;
     margin-left: 85px;
-   margin-bottom: 40px;
+    margin-bottom: 40px;
 
 }
 .ninename {
@@ -570,6 +570,10 @@ td{
 .bottomnine {
     width: 1500px;
     height: 185px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .houseicon {
     height: 40px;
@@ -580,4 +584,24 @@ td{
     color: #8c663c;
     margin-left: 85px;
     margin-top: 40px;
+    width: 270px;
+}
+.iconlink {
+    height: 28px;
+    width: 28px;
+    margin-right: 12px;
+}
+.links {
+    margin-top: 15px;
+}
+.licontact {
+    list-style-type: none;
+}
+.links2 {
+    width: 150px;
+    margin-left: 85px;
+    margin-top: 40px;
+}
+.ulcontact {
+    padding-left: 0px;
 }
