@@ -1,7 +1,7 @@
 body {
     font-family: "Raleway", sans-serif;
     margin-top: 0px;
-    margin-left: 16%;
+    margin-bottom: 0px;
 }
 button:hover {
     color: #8C663C;
@@ -614,9 +614,15 @@ td {
     font-size: 18px;
     color: #8c663c;
     margin-bottom: 0px;
+    padding-left: 5px;
 }
 
-.lilink {
+.li-link {
     text-decoration: none;
     color: #8C663C;
+    padding: 5px;
+}
+.li-link:hover {
+    background-color: #8c663c;
+    color: white;
 }
