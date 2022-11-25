@@ -509,7 +509,7 @@ td {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 90px;
+    margin-top: 70px;
     margin-left: 670px;
 }
 
@@ -621,8 +621,10 @@ td {
     text-decoration: none;
     color: #8C663C;
     padding: 5px;
+    border-radius: 8px;
 }
 .li-link:hover {
     background-color: #8c663c;
     color: white;
+    
 }
