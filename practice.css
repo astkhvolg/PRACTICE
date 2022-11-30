@@ -584,6 +584,7 @@ td {
     font-size: 20px;
     color: #8c663c;
     width: 440px;
+    position: relative;
 }
 
 .iconlink {
@@ -594,6 +595,7 @@ td {
 
 .links {
     margin-top: 15px;
+    margin-left: 85px;
 }
 
 .licontact {
@@ -627,4 +629,9 @@ td {
     background-color: #8c663c;
     color: white;
     
+}
+.atext {
+    position: absolute;
+    bottom: 58px;
+    left: 45px;
 }
