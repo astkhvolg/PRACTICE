@@ -2,7 +2,7 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-.firstdiv {
+.main-page {
     background-image: url(https://images.unsplash.com/photo-1521292270410-a8c4d716d518?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -11,7 +11,7 @@ body {
 
 }
 
-.flexupdiv {
+.main-page__button-top {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -19,7 +19,7 @@ body {
     width: 670px;
 }
 
-.flexbox {
+.main-page__button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -30,7 +30,7 @@ body {
     width: 1500px;
 }
 
-.h1flex {
+.main-page__flexbox {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -46,7 +46,7 @@ body {
     font-weight: 800;
 }
 
-.text {
+.main-page__logo {
     font-size: 20px;
     color: #375c6a;
     font-style: oblique;
