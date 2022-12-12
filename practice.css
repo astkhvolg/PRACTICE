@@ -1,5 +1,10 @@
 body {
     font-family: "Raleway", sans-serif;
+    
+
+}
+button:hover {
+    color: #8C663C;
 }
 
 .main-page {
@@ -56,40 +61,31 @@ body {
 }
 
 .upbutton {
-    width: 105px;
-    height: 25px;
     background-color: #af7c4c;
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
 }
 
 .button-learn-more {
     margin-left: 75px;
     margin-top: 35px;
     margin-bottom: 45px;
-
     width: 150px;
     padding: 10px;
     border: none;
     background-color: #4A7A8C;
-
     line-height: 16px;
     color: white;
     font-family: "Raleway", sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     transition: 0.3s;
     cursor: pointer;
 }
+
 .button-learn-more:hover,
 .button-learn-more:focus {
     background-color: #8C663C;
+    color: #ffffff;
 }
 
 .seconddiv {
@@ -107,13 +103,11 @@ body {
     width: 50px;
     height: 50px;
     margin-left: 25px;
-
 }
 
 .partner {
     font-size: 20px;
     color: #ffffff;
-
 }
 
 .logo {
@@ -216,7 +210,6 @@ body {
     justify-content: space-around;
     align-items: flex-start;
     padding-left: 25px;
-
 }
 
 .textul {
@@ -224,7 +217,6 @@ body {
     height: 580px;
     margin-top: 25px;
     margin-left: 10px;
-
 }
 
 .li {
@@ -251,7 +243,6 @@ body {
     position: relative;
     margin-top: 100px;
     margin-left: 25px;
-
 }
 
 .one {
@@ -261,7 +252,6 @@ body {
     border-radius: 50%;
     position: absolute;
     left: -34px;
-
 }
 
 .listtwo,
@@ -273,13 +263,11 @@ body {
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 25px;
-
 }
 
 .numbers {
     position: absolute;
     left: 5px;
-
 }
 
 .list {
@@ -295,7 +283,6 @@ body {
     height: 900px;
     width: 1500px;
     background-color: #D9B389;
-
 }
 
 .why {
@@ -305,87 +292,84 @@ body {
     color: #8C663C;
 }
 
-/* @keyframes flex {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-body {
-    animation: flex 3s infinite linear;
-} */
-.h3why{
+.h3why {
     margin-bottom: 40px;
     margin-top: 120px;
     text-align: center;
 }
-.whytext{
+
+.whytext {
     font-style: oblique;
     font-size: 18px;
     color: #8C663C;
     font-weight: 300;
 }
-.tdline{
+
+.tdline {
     border: 1px solid #D9B389;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .table {
     border-collapse: collapse;
     width: 1210px;
-    
-
 }
-.onethwhite, .onethblue{
+
+.onethwhite, .onethblue {
     border: 1px solid #D9B389;
     padding-top: 20px;
     padding-bottom: 20px;
     
 }
-.tableflex{
+
+.tableflex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.onethwhite{
+
+.onethwhite {
     background-color: rgb(237, 204, 171);
     color: #8C663C;
 }
-.onethblue{
+
+.onethblue {
     background-color: #4A7A8C;
     color: white;
     text-align: center;
 }
-.whiteblue{
+
+.whiteblue {
     background-color:  #87a5af;
     color: white;
     text-align: center;
 }
-.tdname{
+
+.tdname {
     color: #8c663c;
     background-color:  #D9B389;
 }
-td{
+
+td {
     width: 33%;
     font-size: 18px;
 }
-.kursiv{
-   
+.kursiv {
     padding-left: 20px;
 }
-.center{
+
+.center {
     text-align: center;
 }
-.onesite{
+
+.onesite {
     width: 1500px;
-    margin-top: 0px;
+    margin: 0 auto;
 }
-.sixdiv{
+
+.sixdiv {
     height: 565px;
     width: 1500px;
     display: flex;
@@ -394,28 +378,26 @@ td{
     align-items: center;
 }
 
-
-.textlets{
+.textlets {
     font-size: 60px;
     color: #4A7A8C;
     margin-bottom: 45px;
-
 }
-.textunder{
+
+.textunder {
     font-style: oblique;
     font-size: 18px;
     color: #4A7A8C;
     font-weight: 300;
 }
-.sixtext{
+
+.sixtext {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 375px;
-    
+    width: 375px;  
 }
-
 
 .fullname, .twoname {
     height: 50px;
@@ -427,25 +409,27 @@ td{
     border-right: none;
     border-top: none;
     outline: none;
-    border-collapse: collapse;
-    
+    border-collapse: collapse; 
 }
+
 .fullname:focus {
     color: #8C663C;
     border: 4px solid #8C663C;
   }
+
   .twoname:focus {
     color: #8C663C;
     border-left: 4px solid #8C663C;
     border-right: 4px solid #8C663C;
     border-bottom: 4px solid #8C663C;
-    border-top: 4px solid #8C663C;
-    
+    border-top: 4px solid #8C663C; 
   }
-.req{
+
+.req {
     font-size: 12px;
 }
-.submit{
+
+.submit {
     height: 45px;
     width: 120px;
     font-size: 18px;
@@ -454,36 +438,41 @@ td{
     border: none;
     margin-left: 300px;
 }
-.adress{
+
+.adress {
     margin-top: 45px;
 }
-.sevendiv{
+
+.sevendiv {
     background-color: #87a5af;
     height: 600px;
 }
-.sevenh1{
+
+.sevenh1 {
     height: 20px;
     width: 1500px;
     padding-top: 75px;
-    
     text-align: center;
     font-size: 14px;
     color: #ffffff;
 }
-.smithflex{
+
+.smithflex {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
     margin-top: 70px;
 }
-.smith{
+
+.smith {
     font-size: 28px;
     color: white;
     width: 525px;
     height: 220px;
 }
-.oneline{
+
+.oneline {
     border: none; /* Убираем границу */
     background-color: rgb(255, 255, 255); /* Цвет линии */
     color: rgb(255, 255, 255); /* Цвет линии для IE6-7 */
@@ -491,9 +480,11 @@ td{
     margin-top: 55px;
     margin-bottom: 18px;
 }
-.jonh{
+
+.jonh {
     font-size: 13px;
 }
+
 .eightdiv {
     background-color: rgb(237, 204, 171);
     width: 1500px;
@@ -512,42 +503,46 @@ td{
     position: absolute;
     bottom: 95px;
 }
+
 .flexabouteight {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 90px;
+    margin-top: 70px;
     margin-left: 670px;
 }
+
 .h2eight {
     font-size: 60px;
     color: #4A7A8C;
     margin-top: 15px;
 }
+
 .ninediv {
     background-color: rgb(250, 238, 226);
     width: 1500px;
-    height: 370px;
+    height: 450px;
 }
+
 .topnine {
-    height: 120px;
+    height: 140px;
     display: block;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 50px;
     position: relative;
-
 }
+
 .h3today {
     font-size: 38px;
     color: #4A7A8C;
     margin-top: 0px;
     margin-left: 85px;
-   margin-bottom: 40px;
-
+    margin-bottom: 40px;
 }
+
 .ninename {
     height: 50px;
     width: 650px;
@@ -561,9 +556,82 @@ td{
     border-collapse: collapse;  
     margin-left: 85px;
 }
+
 .symbol {
     position: absolute;
-    left: 685px;
-    top: 133px;
+    top: 75%;
+    transform: translate(2185%);
     font-size: 28px;
+}
+
+.bottomnine {
+    width: 1220px;
+    height: 185px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-left: 85px;
+}
+
+.houseicon {
+    height: 40px;
+    width: 40px;
+}
+
+.housetext {
+    font-size: 20px;
+    color: #8c663c;
+    width: 440px;
+    position: relative;
+}
+
+.iconlink {
+    height: 28px;
+    width: 28px;
+    margin-right: 12px;
+}
+
+.links {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.licontact {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.links2 {
+    width: 150px;
+    margin-left: 85px;
+}
+
+.ulcontact {
+    padding-left: 0px;
+}
+
+.links2text {
+    font-size: 18px;
+    color: #8c663c;
+    margin-bottom: 0px;
+    padding-left: 5px;
+}
+
+.li-link {
+    text-decoration: none;
+    color: #8C663C;
+    padding: 5px;
+    border-radius: 8px;
+}
+.li-link:hover {
+    background-color: #8c663c;
+    color: white;
+    
+}
+.atext {
+    position: absolute;
+    bottom: 58px;
+    left: 45px;
 }
