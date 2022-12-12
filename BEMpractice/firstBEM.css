@@ -1,10 +1,31 @@
 .main-page{
     font-family: "Raleway", sans-serif;
-    background-image: url(https://images.unsplash.com/photo-1516685018646-549198525c1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-image: url(https://images.unsplash.com/photo-1626078297364-bbd98d49f8ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: scroll;
 }
 .link{
-    color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-right: 30px;
+}
+.main-page__menu-link{
+    padding-top: 35px;
+    font-size: 12px;
+    padding-right: 25px;
+}
+.main-page__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.search{
+    border: none;
+    border-radius: 100px/90px;
+}
+.main-page__search{
+    padding-right: 25px;
+    
 }
