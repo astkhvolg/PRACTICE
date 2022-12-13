@@ -26,11 +26,25 @@
 .main-page__search{
     padding-right: 25px;
 }
+.main-page__h1, .main-page__logo, .main-page__title-text, .main-page__button, .main-page__text{
+    padding-left: 90px;
+}
 .h1{
-    font-family: 'Caveat', cursive;
-    font-size: 90px;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 110px;
+}
+.main-page_h1-margin{
+    margin: 0px;
+    height: 175px;
+}
+.main-page__logo{
+    margin-bottom: 0px;
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
+}
+.main-page__title-text{
+    color: white;
+    font-size: 28px;
 }

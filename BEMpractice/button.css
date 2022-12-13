@@ -1,0 +1,14 @@
+.button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 100px/90px;
+    background-color: #ffffff;
+    line-height: 16px;
+    color: rgb(50, 50, 50);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+}
