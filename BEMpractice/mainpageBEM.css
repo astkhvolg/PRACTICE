@@ -21,17 +21,9 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
-.search{
-    border: none;
-    border-radius: 100px/90px;
-    outline: none;
-}
+
 
 .main-page__search{
     padding-right: 25px;
     
 }
-input.search{
-    width:100px;
-    height: 25px;
- }
