@@ -1,13 +1,13 @@
 .main-page{
     font-family: "Raleway", sans-serif;
-    background-image: url(https://images.unsplash.com/photo-1626078297364-bbd98d49f8ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-image: url(https://images.unsplash.com/photo-1559942144-92147a3adb0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: scroll;
     margin: 0px;
 }
 .link{
-    color: rgb(0, 0, 0);
+    color: #353436;
     text-decoration: none;
     
 }
@@ -32,6 +32,7 @@
 .h1{
     font-family: 'La Belle Aurore', cursive;
     font-size: 110px;
+    color: #F0EDF5;
 }
 .main-page_h1-margin{
     margin: 0px;
@@ -45,6 +46,18 @@
     height: 75px;
 }
 .main-page__title-text{
-    color: white;
-    font-size: 28px;
+    color: #353436;
+    font-size: 18px;
+    padding-bottom: 65px;
+}
+.main-page__button{
+    padding-bottom: 23px;
+}
+.main-page__text{
+    color: #353436;
+    padding-bottom: 110px;
+}
+.link, .main-page__text, .main-page__title-text{
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
