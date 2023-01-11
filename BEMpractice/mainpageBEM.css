@@ -66,7 +66,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.menu-page-menu-img {
+.menu-page_menu-img {
   width: 290px;
   height: 290px;
 }
@@ -236,7 +236,7 @@ body {
   font-size: 18px;
   padding-bottom: 50px;
 }
-.form-email {
+.input {
   box-sizing: border-box;
   width: 350px;
   height: 40px;
@@ -246,7 +246,7 @@ body {
   outline: 0px;
   border: none;
 }
-.form-email:hover {
+.input:hover {
   border: none;
   outline: 0px;
 }
