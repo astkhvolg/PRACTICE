@@ -1,0 +1,9 @@
+.search{
+    border: none;
+    border-radius: 100px/90px;
+    outline: none;
+}
+input.search{
+    width:130px;
+    height: 40px;
+ }
